@@ -1,6 +1,3 @@
-import { print_desc } from "./module.js";
-import { print_ln } from "./module.js";
-
 const str1 = " there's no free lunch - gotta pay yer way. ";
 const expected1 = "TNFL-GPYW";
 
@@ -27,7 +24,7 @@ function acronymize(str) {
         if (str[i] == " ") {
             acronym += str[i+1];
             // console.log(acronym);
-        }7
+        }
     }
     return acronym.toUpperCase();
 
